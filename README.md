@@ -13,3 +13,10 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
 
 
 ### BLGPA Experiment
+1. Download from BLGPA folder, FinaFeatures.xlsx and BLGPA.ipynb
+  - FinaFeatures.xlsx contains the dataset from the BLGPA pipeline as described in the paper.
+  - BLGPA.ipynb is a notebook that performs the experiments    
+2. Run the notebook.
+3. The notebook creates the List-of-Predictions.csv, which contains the list of predicted (proposed) DDIs that have not yet been discovered.
+
+`note:` details of the notebook will be added shortly!!! 
