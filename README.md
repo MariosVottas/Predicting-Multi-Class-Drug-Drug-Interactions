@@ -18,5 +18,8 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
   - BLGPA.ipynb is a notebook that performs the experiments    
 2. Run the notebook.
 3. The notebook creates the List-of-Predictions.csv, which contains the list of predicted (proposed) DDIs that have not yet been discovered.
+  - The dictionary `param_grim` has 3 Random Forest parameters you can change to try other Grid Search combinations.
+  - Sampling values contain pairs for [downsampling, upsampling].
+    - The downsampling value divides the number of the majority class by that number.
+    - The upsampling value multiples the number of minority classes by that number   
 
-`note:` details of the notebook will be added shortly!!! 
