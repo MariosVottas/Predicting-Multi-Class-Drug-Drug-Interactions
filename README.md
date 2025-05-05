@@ -10,7 +10,11 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
 ## How to replicate
 
 ### Graph Embedding Experiment
-
+1. Start a connection to your Neo4j database containing the Biomedical Graph Database.
+2. Open one of the Embedding-Experiments python files.
+3. Choose the embedding you want to train, in the `embed` variable.
+4. The `data` variable reads a csv file containg the Drug (CUI) Pairs and their interaction.
+5. The code then trains the embeddings, saves them, loads them. Then it performs the nested cross validation and trains the classifier. 
 
 ### BLGPA Experiment
 1. Download from BLGPA folder, FinaFeatures.xlsx and BLGPA.ipynb
