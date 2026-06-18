@@ -1,9 +1,9 @@
 inputDir: /home/fotis/LiteratureHarvester/tmp
 lastUpdate: 2023/12/06
-keywords: Machado-Joseph Disease;Leigh Disease;Neurotransmitter Agents;Pyridoxine-dependent epilepsy;Glutaryl-CoA Dehydrogenase;congenital disorder of glycosylation;Zellweger Syndrome;Myotonic Dystrophy 1;Myasthenic Syndromes, Congenital
-mongodb: {host: localhost, port: 27017, dbname: p4-lucat}
+keywords: Lung Neoplasms
+mongodb: {host: localhost, port: 27017, dbname: lung-cancer}
 pathDelimiter: /
-rabbitmq: {host: localhost, port: 5672, username: guest, password: guest, exchange: iasis.direct,
+rabbitmq: {host: localhost, port: 5672, username: guest, password: XX, exchange: iasis.direct,
   routingkeyListen: iasis.literature_harvester.routingkey, queueListen: iasis.literature_harvester.queue,
   routingkeySent: iasis.orchestrator.routingkey, queueSent: iasis.orchestrator.queue,
   modulename: literature_harvester}
