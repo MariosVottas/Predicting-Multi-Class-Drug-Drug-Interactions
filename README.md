@@ -1,6 +1,5 @@
 # Predicting-Multi-Class-Drug-Drug-Interactions
 
-
 This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** paper.
 
 - In [Graph Embedding Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Graph_Embedding_Experiments), are the experiment files for the Graph Embedding Experiments that utilize the Biomedical Literature Knowledge Graph using Neo4j.
@@ -41,3 +40,7 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
    - negGroundtruth_filtered.tsv
 5. Run the notebook.
  
+
+## Knowledge Graph Generation
+To regenerate the open data knowledge graph for lung cancer, use the software modules provided in  [Knowledge Graph Generation](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Knowledge%20Graph) and follow the instructions provided in this work:
+https://arxiv.org/abs/1912.08633
