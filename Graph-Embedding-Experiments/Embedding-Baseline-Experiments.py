@@ -24,7 +24,7 @@ from collections import Counter
 print('Neo4j connection details...')
 host = 'bolt://localhost:7687'
 user = 'neo4j'
-password = 'iasis'
+password = 'XX'
 driver = GraphDatabase.driver(host,auth=(user, password))
 
 
