@@ -5,6 +5,7 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
 
 - In [Graph Embedding Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Graph_Embedding_Experiments), are the experiment files for the Graph Embedding Experiments that utilize the Biomedical Literature Knowledge Graph using Neo4j.
 - In [BLGPA Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/BGLPA_Experiments), you will find the Path Analysis (BLGPA) Experiment files along with the file derived from the BLGPA method. 
+- In [RGCN Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/RGCN-Experiments), are the experiment files for the RGCN model that utilize csv files that must be extracted from Neo4j. 
 
 
 ## How to replicate
@@ -27,3 +28,16 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
     - The downsampling value divides the number of the majority class by that number.
     - The upsampling value multiples the number of minority classes by that number   
 
+### RGCN Experiment
+1. Start Neo4j and extract all required csv files:
+   - entities.tsv (including neo4j id, cui and sem_types)
+   - articles.tsv (including neo4j id, pubmed/pmc ids)
+   - relations_articles.tsv (including article-entity ids, relation_type and number of references)
+   - relations_entities.tsv (including entity-entity ids, relation_type and number of references)
+   - relations.tsv (union of the two files above)
+2. Move the csv files in the same folder with python file.
+3. Transform (CUIs to to Neo4j ids) the groundtruth file (ddi-taxonomy.csv) into two files for positive classes and negative class respectively:
+   - posGroundtruth_filtered.tsv
+   - negGroundtruth_filtered.tsv
+5. Run the notebook.
+ 
