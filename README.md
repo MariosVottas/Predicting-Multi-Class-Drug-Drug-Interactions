@@ -2,8 +2,8 @@
 
 This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** paper.
 
-- In [Graph Embedding Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Graph_Embedding_Experiments), are the experiment files for the Graph Embedding Experiments that utilize the Biomedical Literature Knowledge Graph using Neo4j.
-- In [BLGPA Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/BGLPA_Experiments), you will find the Path Analysis (BLGPA) Experiment files along with the file derived from the BLGPA method. 
+- In [Graph Embedding Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Graph-Embedding-Experiments), are the experiment files for the Graph Embedding Experiments that utilize the Biomedical Literature Knowledge Graph using Neo4j.
+- In [BLGPA Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/BGLPA-Experiments), you will find the Path Analysis (BLGPA) Experiment files along with the file derived from the BLGPA method. 
 - In [RGCN Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/RGCN-Experiments), are the experiment files for the RGCN model that utilize csv files that must be extracted from Neo4j. 
 
 ## How to replicate
