@@ -6,7 +6,6 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
 - In [BLGPA Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/BGLPA_Experiments), you will find the Path Analysis (BLGPA) Experiment files along with the file derived from the BLGPA method. 
 - In [RGCN Experiments](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/RGCN-Experiments), are the experiment files for the RGCN model that utilize csv files that must be extracted from Neo4j. 
 
-
 ## How to replicate
 
 ### Graph Embedding Experiment
@@ -39,7 +38,10 @@ This is GitHub repo for the **Predicting-Multi-Class-Drug-Drug-Interactions** pa
    - posGroundtruth_filtered.tsv
    - negGroundtruth_filtered.tsv
 5. Run the notebook.
- 
+
+## Lung Cancer Knowledge Graph dump file
+A zipped version of the Lung Cancer knowledge graph neo4j (Neo4j community 3.5.23) can be found here:
+https://owncloud.skel.iit.demokritos.gr/index.php/s/mHyei8ohPzDwwI0
 
 ## Knowledge Graph Generation
 To regenerate the open data knowledge graph for lung cancer, use the software modules provided in  [Knowledge Graph Generation](https://github.com/MariosVottas/Predicting-Multi-Class-Drug-Drug-Interactions/tree/main/Knowledge%20Graph) and follow the instructions provided in this work:
