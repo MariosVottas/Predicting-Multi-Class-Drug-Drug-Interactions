@@ -1,0 +1,2 @@
+A zipped version of the Neo4j lung cancer knowledge graph can be downloaded from here:
+https://owncloud.skel.iit.demokritos.gr/index.php/s/mHyei8ohPzDwwI0
